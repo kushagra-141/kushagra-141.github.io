@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume — Kushagra Gupta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { color-scheme: dark; }
+    html, body {
+      background: #0a0f1e;
+      color: #fff;
+      font-family: 'Inter', system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    body {
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(124,58,237,0.12), transparent 60%),
+        radial-gradient(ellipse 60% 50% at 100% 0%, rgba(0,212,255,0.08), transparent 60%),
+        #0a0f1e;
+      min-height: 100vh;
+    }
+    .font-mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+    *::selection { background: rgba(0,212,255,0.3); color: #fff; }
+    ::-webkit-scrollbar { width: 10px; height: 10px; }
+    ::-webkit-scrollbar-track { background: #0a0f1e; }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(#00d4ff44, #7c3aed44);
+      border-radius: 8px;
+      border: 2px solid #0a0f1e;
+    }
+    ::-webkit-scrollbar-thumb:hover { background: linear-gradient(#00d4ff88, #7c3aed88); }
+  </style>
+</head>
+<body>
+  <div class="min-h-screen flex flex-col">
+    <header class="sticky top-0 z-50 backdrop-blur-xl bg-[#0a0f1e]/70 border-b border-white/[0.06]">
+      <div class="max-w-6xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-2 group">
+          <span class="font-mono text-cyan-300 text-sm tracking-tight">
+            <span class="text-white/40">/</span>kg<span class="text-violet-300/80">.</span>
+          </span>
+          <span class="hidden sm:inline text-white/80 text-sm font-medium tracking-tight group-hover:text-white transition">
+            Kushagra Gupta
+          </span>
+        </a>
+
+        <div class="flex items-center gap-2">
+          <a href="index.html" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm border border-white/10 text-white/70 hover:text-white hover:border-white/20 transition">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+            Back to portfolio
+          </a>
+          <a href="uploads/resume_cf_0225.pdf"
+             download="Kushagra_Gupta_Resume.pdf"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium border border-cyan-400/40 bg-cyan-400/10 text-cyan-100 hover:bg-cyan-400/20 hover:shadow-[0_0_24px_-6px_rgba(0,212,255,0.6)] transition">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+            Download
+          </a>
+          <a href="uploads/resume_cf_0225.pdf"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm border border-white/10 text-white/70 hover:text-white hover:border-white/20 transition">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+            Open in new tab
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1 max-w-6xl w-full mx-auto px-6 md:px-10 py-8">
+      <div class="mb-6 flex items-end justify-between flex-wrap gap-4">
+        <div>
+          <div class="font-mono text-xs tracking-[0.25em] uppercase text-cyan-300/70 mb-2">
+            <span class="text-violet-300/60">07</span>
+            <span class="mx-2 text-white/20">/</span>
+            <span>Document</span>
+          </div>
+          <h1 class="text-3xl md:text-4xl font-semibold tracking-tight">Resume</h1>
+        </div>
+        <div class="font-mono text-[11px] text-white/40">
+          resume_cf_0225.pdf
+        </div>
+      </div>
+
+      <div class="rounded-2xl border border-white/[0.07] bg-white/[0.02] backdrop-blur-xl p-2 md:p-3 shadow-[0_1px_0_0_rgba(255,255,255,0.04)_inset]">
+        <object
+          data="uploads/resume_cf_0225.pdf#view=FitH"
+          type="application/pdf"
+          class="w-full h-[78vh] md:h-[82vh] rounded-xl bg-black/40">
+          <div class="flex flex-col items-center justify-center text-center h-full px-6 py-16">
+            <p class="text-white/70 max-w-md">
+              Your browser can't display the PDF inline. Use one of the buttons below to view or download it.
+            </p>
+            <div class="mt-6 flex gap-3 flex-wrap justify-center">
+              <a href="uploads/resume_cf_0225.pdf"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm border border-cyan-400/40 bg-cyan-400/10 text-cyan-100 hover:bg-cyan-400/20 transition">
+                Open in new tab
+              </a>
+              <a href="uploads/resume_cf_0225.pdf"
+                 download="Kushagra_Gupta_Resume.pdf"
+                 class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm border border-white/10 text-white/80 hover:bg-white/[0.06] transition">
+                Download PDF
+              </a>
+            </div>
+          </div>
+        </object>
+      </div>
+
+      <p class="mt-4 text-center font-mono text-[11px] text-white/35">
+        Tip: if the embed doesn't load (some browsers block PDFs in iframes), use "Open in new tab".
+      </p>
+    </main>
+
+    <footer class="border-t border-white/[0.06] py-6 mt-8">
+      <div class="max-w-6xl mx-auto px-6 md:px-10 flex flex-wrap items-center justify-between gap-3 font-mono text-[11px] text-white/35">
+        <span>© <span id="yr"></span> Kushagra Gupta.</span>
+        <a href="index.html" class="hover:text-cyan-200 transition">← back to portfolio</a>
+      </div>
+    </footer>
+  </div>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
